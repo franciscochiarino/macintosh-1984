@@ -18,6 +18,7 @@ After that I will adapt my projects (games, etc) to fit the 'OS' environment wel
 
 ## Wireframes
 
+![image](./macintosh-structure.jpg)
 ![image](./macintosh-desktop.jpeg)
 
 ## Time
