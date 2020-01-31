@@ -18,8 +18,18 @@ After that I will adapt my projects (games, etc) to fit the 'OS' environment wel
 
 ## Wireframes
 
-![image](./macintosh-structure.jpg)
-![image](./macintosh-desktop.jpeg)
+### JavaScript file structure
+![image](./wireframes/macintosh-structure.jpg)
+
+### Script layout
+![image](./wireframes/script-layout.jpg)
+
+### Nav content
+![image](./wireframes/macintosh-nav-content.png)
+
+### Original Macintosh desktop
+![image](./wireframes/macintosh-desktop.jpeg)
+
 
 ## Time
 
