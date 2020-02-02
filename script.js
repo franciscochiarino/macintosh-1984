@@ -1,8 +1,6 @@
 // Global variables
 
-// Get all the navigation buttons
 const navButtons = document.querySelectorAll('.nav-btn');
-
 
 // Navigation event listeners
 
@@ -12,7 +10,3 @@ navButtons.forEach(button => {
         buttonDropdown.classList.toggle('off');
     })
 })
-
-// start.addEventListener('click', function() {
-//     startDropdown.classList.toggle('off');
-// })
