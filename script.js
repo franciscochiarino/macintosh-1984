@@ -6,7 +6,7 @@ const navButtons = document.querySelectorAll('.nav-btn');
 
 navButtons.forEach(button => {
     button.addEventListener('click', function() {
-        let buttonDropdown = document.getElementById(`${button.id}-dropdown`);
-        buttonDropdown.classList.toggle('off');
+        let buttonContent = document.getElementById(`${button.id}-content`);
+        buttonContent.classList.toggle('off');
     })
 })
