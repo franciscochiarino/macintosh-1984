@@ -45,5 +45,20 @@ header nav {
         padding: 0 0.5rem;
         font-family: $font-stack;
     }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        background-color: #fff;
+        margin-top: 0.4rem;
+    }
+
+    .dropdown-content > button {
+        padding: 0.3rem 2.5rem 0.5rem 0.5rem; 
+    }
 }
 
