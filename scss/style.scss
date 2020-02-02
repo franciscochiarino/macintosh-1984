@@ -12,6 +12,12 @@ html {
     font-size: 100%;
 }
 
+// Global
+
+.off {
+    display: none;
+}
+
 // Desktop
 
 .desktop {
@@ -21,3 +27,4 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
