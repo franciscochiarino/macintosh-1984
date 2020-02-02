@@ -1,0 +1,23 @@
+{
+  "name": "macintosh-1984",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscochiarino/macintosh-1984.git"
+  },
+  "author": "Francisco Chiarino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscochiarino/macintosh-1984/issues"
+  },
+  "homepage": "https://github.com/franciscochiarino/macintosh-1984#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0"
+  }
+}
