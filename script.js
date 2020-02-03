@@ -3,6 +3,8 @@
 const navButtons = document.querySelectorAll('.nav-btn');
 const escape = document.getElementById('escape');
 const escapeAboutMe = document.getElementById('escape-about-me');
+const aboutMeBtn = document.getElementById('about-me-btn');
+const aboutMeWindow = document.getElementById('about-me-window');
 
 
 // Navigation event listeners
@@ -25,6 +27,13 @@ navButtons.forEach(button => {
     })
 })
 
+// Open About Me
+
+aboutMeBtn.addEventListener('click', function() {
+  aboutMeWindow.classList.toggle('off');
+})
+
+
 // Draggable Div and About Me escape 'x'
 
 escape.addEventListener('click', function() {
@@ -33,7 +42,6 @@ escape.addEventListener('click', function() {
 })
 
 escapeAboutMe.addEventListener('click', function() {
-  const aboutMeWindow = document.getElementById('about-me');
   aboutMeWindow.classList.toggle('off');
 })
 
