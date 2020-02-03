@@ -133,13 +133,13 @@ header nav {
 }
 
 #about-me-window {
-    width: 765px;
-    height: 461px;
+    width: 655px;
+    height: 361px;
     background-image: url(./assets/about-me.jpg);
     background-color: #000;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-box-shadow: $default-shadow;
     -moz-box-shadow: $default-shadow;
     box-shadow: $default-shadow;
@@ -151,7 +151,8 @@ header nav {
 
     h1 {
         color: white;
-        padding: 0.4rem 1rem;
+        padding: 0.2rem 1rem;
+        font-size: 1.5rem;
     }
 
     svg {
