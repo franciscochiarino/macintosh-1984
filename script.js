@@ -29,8 +29,10 @@ navButtons.forEach(button => {
 
 // Open About Me
 
-aboutMeBtn.addEventListener('click', function() {
-  aboutMeWindow.classList.toggle('off');
+aboutMeBtn.addEventListener('click', function(event) {
+    event.target.parentElement.classList.toggle('off');
+    event.target.parentElement.previousElementSibling.classList.toggle('invert-colors')
+    aboutMeWindow.classList.toggle('off');
 })
 
 
@@ -42,7 +44,7 @@ escape.addEventListener('click', function() {
 })
 
 escapeAboutMe.addEventListener('click', function() {
-  aboutMeWindow.classList.toggle('off');
+    aboutMeWindow.classList.toggle('off');
 })
 
 // Make the DIV element draggable
