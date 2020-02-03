@@ -2,7 +2,7 @@
 
 const navButtons = document.querySelectorAll('.nav-btn');
 const escape = document.getElementById('escape');
-const escapeAboutMe = document.getElementById('escape-about-me');
+// const escapeAboutMe = document.getElementById('escape-about-me');
 const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
 const desktop = document.querySelector('.desktop');
@@ -59,9 +59,9 @@ escape.addEventListener('click', function() {
     draggableDiv.classList.toggle('off');
 })
 
-escapeAboutMe.addEventListener('click', function() {
-    aboutMeWindow.classList.toggle('off');
-})
+// escapeAboutMe.addEventListener('click', function() {
+//     aboutMeWindow.classList.toggle('off');
+// })
 
 // Make the DIV element draggable
 
