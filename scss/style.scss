@@ -59,6 +59,7 @@ header nav {
 
     .dropdown-content {
         position: absolute;
+        z-index: 2;
         background-color: #fff;
         margin-top: 0.1rem;
         -webkit-box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
@@ -89,7 +90,7 @@ header nav {
 
 #draggable-div {
     position: absolute;
-    z-index: 9;
+    z-index: 1;
     background-color: #fff;
     text-align: center;
     width: 500px;
@@ -101,7 +102,7 @@ header nav {
 
     #draggable-divheader {
         cursor: move;
-        z-index: 10;
+        z-index: 1;
         background-color: #000;
         color: #fff;
         padding: 0.2rem;
