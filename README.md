@@ -30,6 +30,8 @@ After that I will adapt my projects (games, etc) to fit the 'OS' environment wel
 ### Original Macintosh desktop
 ![image](./wireframes/macintosh-desktop.jpeg)
 
+### Background Window
+![image](./wireframes/background-window.jpg)
 
 ## Time
 
