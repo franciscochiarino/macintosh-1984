@@ -140,10 +140,14 @@ header nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0 auto;
     -webkit-box-shadow: $default-shadow;
     -moz-box-shadow: $default-shadow;
     box-shadow: $default-shadow;
+    position: relative;
+    transform: translateX(-50%);
+    top: 15%;
+    left: 50%;
+    
 
     h1 {
         color: white;
