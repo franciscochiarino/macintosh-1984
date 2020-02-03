@@ -147,7 +147,13 @@ header nav {
 
     h1 {
         color: white;
-        padding: 2rem 1rem;
+        padding: 0.4rem 1rem;
+    }
+
+    svg {
+        margin: 0.5rem 0 0 0.5rem;
+        stroke-width: 3px;
+        cursor: pointer;
     }
 }
 

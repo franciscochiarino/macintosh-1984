@@ -2,6 +2,7 @@
 
 const navButtons = document.querySelectorAll('.nav-btn');
 const escape = document.getElementById('escape');
+const escapeAboutMe = document.getElementById('escape-about-me');
 
 
 // Navigation event listeners
@@ -24,9 +25,16 @@ navButtons.forEach(button => {
     })
 })
 
+// Draggable Div and About Me escape 'x'
+
 escape.addEventListener('click', function() {
     const draggableDiv = document.getElementById('draggable-div');
     draggableDiv.classList.toggle('off');
+})
+
+escapeAboutMe.addEventListener('click', function() {
+  const aboutMeWindow = document.getElementById('about-me');
+  aboutMeWindow.classList.toggle('off');
 })
 
 // Make the DIV element draggable
