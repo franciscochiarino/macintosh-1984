@@ -5,6 +5,7 @@ const escape = document.getElementById('escape');
 const escapeAboutMe = document.getElementById('escape-about-me');
 const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
+const desktop = document.querySelector('.desktop');
 
 
 // Navigation event listeners
@@ -24,6 +25,17 @@ navButtons.forEach(button => {
             button.classList.toggle('invert-colors');
         }
         
+    })
+})
+
+desktop.addEventListener('click', function() {
+    navButtons.forEach(button => {
+        let buttonContent = document.getElementById(`${button.id}-content`);
+
+        if (!buttonContent.className.includes('off')) {
+            buttonContent.classList.toggle('off');
+            button.classList.toggle('invert-colors');
+        }
     })
 })
 
