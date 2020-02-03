@@ -130,8 +130,25 @@ header nav {
             height: 27px;
         }
     }
-
-    
-
 }
+
+#about-me {
+    width: 765px;
+    height: 461px;
+    background-image: url(./assets/about-me.jpg);
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    -webkit-box-shadow: $default-shadow;
+    -moz-box-shadow: $default-shadow;
+    box-shadow: $default-shadow;
+
+    h1 {
+        color: white;
+        padding: 2rem 1rem;
+    }
+}
+
 
