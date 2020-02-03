@@ -1,6 +1,7 @@
 // Global variables
 
 const navButtons = document.querySelectorAll('.nav-btn');
+const escape = document.getElementById('escape');
 
 
 // Navigation event listeners
@@ -23,6 +24,10 @@ navButtons.forEach(button => {
     })
 })
 
+escape.addEventListener('click', function() {
+    const draggableDiv = document.getElementById('draggable-div');
+    draggableDiv.classList.toggle('off');
+})
 
 // Make the DIV element draggable
 
