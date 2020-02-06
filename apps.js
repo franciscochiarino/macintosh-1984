@@ -81,10 +81,10 @@ const apps = {
 
             <!-- Form -->
             <form id="hangman-form" action="#">
-                <label for="hangman">Pick a character:
+                <label>Pick a character:
                     <input type="text" name="letter" id="letter" required>
                 </label>
-                <input type="submit" class="btn">
+                <button type="submit" class="btn">GO!</button>
             </form>
         </div>`
 };

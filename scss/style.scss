@@ -284,6 +284,10 @@ header nav {
         flex-flow: row wrap;
         width: 250px;
         margin: 0 auto;
+
+        button {
+            margin-top: 0.8rem;
+        }
     }
     
     input {
