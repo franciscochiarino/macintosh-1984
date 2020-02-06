@@ -167,11 +167,16 @@ header nav {
 
 // Background Window
 
+#background-window {
+    border-radius: 8px 8px 0 0;
+}
+
 .bw-flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+    border-radius: inherit;
 
     .main-thumbnail {
         display: flex;
@@ -184,7 +189,7 @@ header nav {
 
     .thumbnails {
         padding: 1.5rem 1.5rem 1.8rem 1.5rem;
-        border-radius: 8px 8px 0 0;
+        border-radius: inherit;
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
         gap: 5px;
