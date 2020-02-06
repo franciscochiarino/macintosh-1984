@@ -1,5 +1,6 @@
-// Apps Object
+// Apps buttons and HTMLs
 
+const appBtns = document.querySelectorAll('.app-btn');
 const apps = {
     background: `
         <div id="background-window">
@@ -19,3 +20,4 @@ const apps = {
             </section>
         </div>`
 }
+
