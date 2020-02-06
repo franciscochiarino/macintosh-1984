@@ -46,14 +46,14 @@ function hangman() {
 
     const guessLetter = (pickedLetter) => {
         pickedLetter.preventDefault();
-        
+
         pickedLetter = letter.value;
         let isValid = false; // Needed to check if the player missed.
 
         // Make sure the letter is one upper-case character for a fair comparison:
         pickedLetter = pickedLetter.toLocaleUpperCase(); 
         if (pickedLetter.length > 1) {
-            return outputMessage.innerHTML = `<p>Make sure you introduce one character at a time</p>`
+            return outputMessage.innerHTML = `<p>One character at a time!</p>`
         }
 
         // Iterate through letter array, and check if letter is in letters array:

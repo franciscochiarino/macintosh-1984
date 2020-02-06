@@ -9,3 +9,7 @@
 
 - The app's script has to be inside a function.
 - This function's name must match the button id (check on index.html > nav)
+
+### CSS
+
+- Remember to run watch-css!

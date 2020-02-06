@@ -25,7 +25,7 @@ const apps = {
                 <section>
                     <!-- Hangman Illustration -->
                     <svg width="240" height="296" viewBox="0 0 240 296" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g id="hangman">
+                        <g>
                             <!-- Hang Stand -->
                             <g id="hang-stand">
                                 <line id="Line 1" y1="293" x2="107" y2="293" stroke="black" stroke-width="6"/>

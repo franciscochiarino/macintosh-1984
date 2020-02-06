@@ -98,6 +98,8 @@ header nav {
     font-family: $font-stack;
 }
 
+// Draggable Div
+
 #draggable-div {
     position: absolute;
     z-index: 1;
@@ -135,6 +137,8 @@ header nav {
     }
 }
 
+// About Me ...
+
 #about-me-window {
     width: 655px;
     height: 361px;
@@ -165,7 +169,7 @@ header nav {
     }
 }
 
-// Background Window
+// Background 
 
 #background-window {
     border-radius: 8px 8px 0 0;
@@ -210,5 +214,87 @@ header nav {
         background: #fff;
         padding: 0.5rem 1.5rem;
         cursor: pointer;
+    }
+}
+
+
+// Hangman
+
+#hangman-window {
+    padding: 1rem 2rem;
+
+    #head,
+    #body,
+    #arm-left,
+    #arm-right,
+    #leg-left,
+    #leg-right,
+    #happy {
+        display: none;
+    }   
+
+    svg {
+        width: 90%;
+    }
+    
+    #display {
+        min-width: 320px;
+    }
+
+    #display * {
+        margin-top: 1rem;
+    }
+    
+    #word-display {
+        font-size: 1.5rem;
+        // font-family: 'Fira Mono', monospace;
+    }
+    
+    #output-message {
+        font-size: 1rem;
+    }
+    
+    #used-characters {
+        display: flex;
+        height: 2.5rem;
+        border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+        
+        p {
+            margin: 0;
+        }
+    }
+
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    
+    form {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+    input {
+        margin: 0.5rem;
+    }
+    
+    #letter {
+        width: 4rem;
+        padding: 0.2rem 0;
+    }
+    
+    input[type="submit"] {
+        border: 1px solid black;
+        padding: 0.5rem 1rem;
+        background-color: #021c1e;
+        color: #fff;
     }
 }
