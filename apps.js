@@ -9,9 +9,9 @@ const apps = {
                     <img id="img-thumbnail" src="./assets/icons/mac-icon-classic.png" alt="">
                 </section> -->
                 <section class="thumbnails border-shadow">
-                    <img src="./assets/thumbnails/macintosh_157x120.jpg" alt="light blue background color with old mac icon">
-                    <img src="./assets/thumbnails/made-in-the-80s_157x120.jpg" alt="80s style background with big 80">
-                    <img src="./assets/thumbnails/stripes_157x120.jpg" alt="pink yellow white blue and black stripes background">
+                    <img id="macintosh_1920x1200" src="./assets/thumbnails/macintosh_157x120.jpg" alt="light blue background color with old mac icon">
+                    <img id="made-in-the-80s_1920x1080" src="./assets/thumbnails/made-in-the-80s_157x120.jpg" alt="80s style background with big 80">
+                    <img id="stripes_1920x1080" src="./assets/thumbnails/stripes_157x120.jpg" alt="pink yellow white blue and black stripes background">
                     <img src="./assets/thumbnails/retro-apple_157x120.jpg" alt="apple's finder smiley face background">                      
                 </section>
             </section>
@@ -44,6 +44,9 @@ appBtns.forEach(button => {
                 button.classList.toggle('invert-colors');
             }
         })
+
+        // Call the function with the app's name
+        window[event.target.id]();
     })
 })
 
