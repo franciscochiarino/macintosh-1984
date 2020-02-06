@@ -86,8 +86,7 @@ const apps = {
                 </label>
                 <input type="submit">
             </form>
-        </div>
-        `
+        </div>`
 };
 
 // Open Application
@@ -123,7 +122,7 @@ appBtns.forEach(button => {
 
 escape.addEventListener('mousedown', closeApp)
 
-function closeApp(event) {
+function closeApp() {
 
     const draggableDiv = document.getElementById('draggable-div');
     draggableDiv.classList.toggle('off');
