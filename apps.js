@@ -80,13 +80,14 @@ const apps = {
             </div> <!-- .flex-container -->
 
             <!-- Form -->
-            <form onsubmit="guessLetter(); return false" action="#">
+            <form id="hangman-form" action="#">
                 <label for="hangman">Pick a character:
                     <input type="text" name="letter" id="letter" required>
                 </label>
                 <input type="submit">
             </form>
-        </div>`
+        </div>
+        `
 };
 
 // Open Application
@@ -129,3 +130,5 @@ function closeApp(event) {
     // If we dont remove the html, it would be added again and again everytime we open the app
     draggableDiv.removeChild(draggableDiv.lastChild);
 }
+
+
