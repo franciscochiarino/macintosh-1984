@@ -52,10 +52,12 @@ appBtns.forEach(button => {
 
 // Close Application
 
-escape.addEventListener('mousedown', function(event) {
+escape.addEventListener('mousedown', closeApp)
+
+function closeApp(event) {
 
     const draggableDiv = document.getElementById('draggable-div');
     draggableDiv.classList.toggle('off');
     // If we dont remove the html, it would be added again and again everytime we open the app
     draggableDiv.removeChild(draggableDiv.lastChild);
-})
+}
