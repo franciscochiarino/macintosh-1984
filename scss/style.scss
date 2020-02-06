@@ -22,7 +22,7 @@ html {
     src: url(chicago.ttf);
 }
 
-// Global
+// Global Classes
 
 .off {
     display: none;
@@ -31,6 +31,13 @@ html {
 .invert-colors {
     background-color: #000;
     color: #fff;
+}
+
+.border-shadow {
+    border: 1px solid black;
+    -webkit-box-shadow: $default-shadow;
+    -moz-box-shadow: $default-shadow;
+    box-shadow: $default-shadow;
 }
 
 // Desktop
@@ -195,6 +202,14 @@ header nav {
         border: 2px solid black;
         border-radius: 5px;
     }
-
     
+}
+
+.btn-section {
+    padding: 1rem 0;
+
+    #confirm-background {
+        background: #fff;
+        padding: 0.5rem 1.5rem;
+    }
 }
