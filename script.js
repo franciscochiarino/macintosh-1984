@@ -52,12 +52,6 @@ aboutMeBtn.addEventListener('click', function(event) {
 })
 
 
-// Draggable Div and About Me escape 'x'
-
-escape.addEventListener('click', function() {
-    const draggableDiv = document.getElementById('draggable-div');
-    draggableDiv.classList.toggle('off');
-})
 
 // escapeAboutMe.addEventListener('click', function() {
 //     aboutMeWindow.classList.toggle('off');

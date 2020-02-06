@@ -26,7 +26,6 @@ const apps = {
 appBtns.forEach(button => {
     button.addEventListener('click', function(event) {
         const draggableDiv = document.getElementById('draggable-div');
-        // const draggableDivHeader = document.getElementById('draggable-divheader');
 
         if (draggableDiv.className.includes('off')) {
             draggableDiv.classList.toggle('off');
@@ -35,3 +34,11 @@ appBtns.forEach(button => {
     })
 })
 
+// Draggable Div and About Me escape 'x'
+
+escape.addEventListener('mousedown', function(event) {
+    const draggableDiv = document.getElementById('draggable-div');
+    console.log(draggableDiv.lastChild);
+    draggableDiv.classList.toggle('off');
+    draggableDiv.removeChild(draggableDiv.lastChild);
+})
