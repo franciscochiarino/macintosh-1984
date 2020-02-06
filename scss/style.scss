@@ -104,13 +104,9 @@ header nav {
     background-color: #fff;
     // width: auto;
     // height: auto;
-    border: 1px solid black;
     border-radius: 3px 3px 0 0;
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    -webkit-box-shadow: $default-shadow;
-    -moz-box-shadow: $default-shadow;
-    box-shadow: $default-shadow;
 
     #draggable-divheader {
         cursor: move;
@@ -188,14 +184,10 @@ header nav {
 
     .thumbnails {
         padding: 1.5rem 1.5rem 1.8rem 1.5rem;
-        border: 1px solid black;
         border-radius: 8px 8px 0 0;
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
         gap: 5px;
-        -webkit-box-shadow: $default-shadow;
-        -moz-box-shadow: $default-shadow;
-        box-shadow: $default-shadow;
     }
 
     .thumbnails > img {
@@ -206,7 +198,8 @@ header nav {
 }
 
 .btn-section {
-    padding: 1rem 0;
+    padding: 0 1.8rem 1rem 0;
+    text-align: right;
 
     #confirm-background {
         background: #fff;
