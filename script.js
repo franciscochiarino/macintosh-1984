@@ -107,5 +107,3 @@ function dragElement(elmnt) {
   }
 }
 
-
-// Testing
