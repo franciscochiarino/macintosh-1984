@@ -21,24 +21,29 @@ const apps = {
         </div>`
 };
 
-// Add event listener to app buttons
+// Open Application
 
+// Add event listener to each button that opens an app
 appBtns.forEach(button => {
+
     button.addEventListener('click', function(event) {
         const draggableDiv = document.getElementById('draggable-div');
 
         if (draggableDiv.className.includes('off')) {
+
             draggableDiv.classList.toggle('off');
+            // Adjacent the html from the apps object
             draggableDiv.insertAdjacentHTML('beforeend', apps[event.target.id]);
         }
     })
 })
 
-// Draggable Div and About Me escape 'x'
+// Close Application
 
 escape.addEventListener('mousedown', function(event) {
+
     const draggableDiv = document.getElementById('draggable-div');
-    console.log(draggableDiv.lastChild);
     draggableDiv.classList.toggle('off');
+    // If we dont remove the html, it would be added again and again everytime we open the app
     draggableDiv.removeChild(draggableDiv.lastChild);
 })
