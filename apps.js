@@ -19,5 +19,7 @@ const apps = {
                 <button id="confirm-background" class="border-shadow">OK</button>
             </section>
         </div>`
-}
+};
+
+console.log(appBtns);
 
