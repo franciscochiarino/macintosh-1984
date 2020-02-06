@@ -40,6 +40,16 @@ html {
     box-shadow: $default-shadow;
 }
 
+.btn {
+    background: #fff;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    -webkit-box-shadow: $default-shadow;
+    -moz-box-shadow: $default-shadow;
+    box-shadow: $default-shadow;
+}
+
 // Desktop
 
 header nav {
@@ -209,12 +219,6 @@ header nav {
 .btn-section {
     padding: 0 1.8rem 1rem 0;
     text-align: right;
-
-    #confirm-background {
-        background: #fff;
-        padding: 0.5rem 1.5rem;
-        cursor: pointer;
-    }
 }
 
 
@@ -289,12 +293,5 @@ header nav {
     #letter {
         width: 4rem;
         padding: 0.2rem 0;
-    }
-    
-    input[type="submit"] {
-        border: 1px solid black;
-        padding: 0.5rem 1rem;
-        background-color: #021c1e;
-        color: #fff;
     }
 }

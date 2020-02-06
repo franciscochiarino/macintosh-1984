@@ -16,7 +16,7 @@ const apps = {
                 </section>
             </section>
             <section class="btn-section">
-                <button id="confirm-background" class="border-shadow">OK</button>
+                <button id="confirm-background" class="btn">OK</button>
             </section>
         </div>`,
     hangman: `
@@ -84,7 +84,7 @@ const apps = {
                 <label for="hangman">Pick a character:
                     <input type="text" name="letter" id="letter" required>
                 </label>
-                <input type="submit">
+                <input type="submit" class="btn">
             </form>
         </div>`
 };
