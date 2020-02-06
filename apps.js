@@ -32,9 +32,18 @@ appBtns.forEach(button => {
         if (draggableDiv.className.includes('off')) {
 
             draggableDiv.classList.toggle('off');
+            event.target.offsetParent.classList.toggle('off');
             // Adjacent the html from the apps object
             draggableDiv.insertAdjacentHTML('beforeend', apps[event.target.id]);
         }
+
+        // Invert colors to default once the app is opened
+        navButtons.forEach(button => {
+
+            if (button.className.includes('invert-colors')) {
+                button.classList.toggle('invert-colors');
+            }
+        })
     })
 })
 
