@@ -21,5 +21,17 @@ const apps = {
         </div>`
 };
 
-console.log(appBtns);
+// Add event listener to app buttons
+
+appBtns.forEach(button => {
+    button.addEventListener('click', function(event) {
+        const draggableDiv = document.getElementById('draggable-div');
+        // const draggableDivHeader = document.getElementById('draggable-divheader');
+
+        if (draggableDiv.className.includes('off')) {
+            draggableDiv.classList.toggle('off');
+            draggableDiv.insertAdjacentHTML('beforeend', apps[event.target.id]);
+        }
+    })
+})
 
