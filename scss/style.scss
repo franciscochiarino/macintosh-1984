@@ -164,11 +164,11 @@ header nav {
 
 // Background Window
 
-#background-window {
+.bw-flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
 
     .main-thumbnail {
         display: flex;
@@ -176,13 +176,19 @@ header nav {
     }
 
     #img-thumbnail {
-        width: 60%;
+        width: 70%;
     }
 
     .thumbnails {
+        padding: 1.5rem 1.5rem 1.8rem 1.5rem;
+        border: 1px solid black;
+        border-radius: 8px 8px 0 0;
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
         gap: 5px;
+        -webkit-box-shadow: $default-shadow;
+        -moz-box-shadow: $default-shadow;
+        box-shadow: $default-shadow;
     }
 
     .thumbnails > img {
