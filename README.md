@@ -6,7 +6,7 @@ A website that simulates the Macintosh 1984 operating system.
 
 ## Details
 
-- This is a project I will work on in my free time. 
+- This is a project I will do in my free time. 
 
 - The main reasons of making this project are learning and practicing. It is also intended to be used as a porfolio website. 
 
