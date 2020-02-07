@@ -86,6 +86,197 @@ const apps = {
                 </label>
                 <button type="submit" class="btn">GO!</button>
             </form>
+        </div>`,
+    memory: `
+        <div id="memory-window">
+            <div class="flex-container">
+                <header>
+                    <h1>Memory</h1>
+                </header>
+                
+                <section class="grid-container">
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner lion" id="lion">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/lion_425x550.jpg" alt="lion" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner cat" id="cat">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/cat_425x550.jpg" alt="cat" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner cow" id="cow">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/cow_425x550.jpg" alt="cow" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner cow" id="cow-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/cow_425x550.jpg" alt="cow" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner squirrel" id="squirrel">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner wolf" id="wolf">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner stone-goat" id="stone-goat">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner sheep" id="sheep">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner dog" id="dog">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/dog_425x550.jpg" alt="dog" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner sheep" id="sheep-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner giraffe" id="giraffe">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner squirrel" id="squirrel-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner dog" id="dog-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/dog_425x550.jpg" alt="dog" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner lion" id="lion-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/lion_425x550.jpg" alt="lion" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner giraffe" id="giraffe-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner wolf" id="wolf-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner cat" id="cat-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/cat_425x550.jpg" alt="cat" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner stone-goat" id="stone-goat-pair">
+                            <div class="flip-card-front">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="./assets/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                            </div>
+                        </div>
+                    </div> 
+                </section> <!-- .grid-container -->
+            </div> <!-- .flex-container -->
         </div>`
 };
 
