@@ -69,6 +69,7 @@ function hangman() {
         // Display winning message if the word is guessed:
         if (letters.toString() === guesses.toString()) {
             outputMessage.innerHTML = `<p> You won! </p>`;
+            confetti.start();
             sad.style.display = 'none';
             happy.style.display = 'inline';
         }

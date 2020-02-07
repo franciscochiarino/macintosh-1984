@@ -307,7 +307,7 @@ header nav {
     h3 {
         margin-top: 1rem;
     }
-    
+
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -349,7 +349,8 @@ header nav {
     
     /* Style the front side */
     .flip-card-front {
-        background-color: #283655;
+        // background-color: #283655;
+        background-color: #212121;
     }
 
     /* Style the back side */
