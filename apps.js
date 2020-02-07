@@ -96,13 +96,19 @@ appBtns.forEach(button => {
 
     button.addEventListener('click', function(event) {
         const draggableDiv = document.getElementById('draggable-div');
-
+        const appName = event.target.id
+        
         if (draggableDiv.className.includes('off')) {
 
             draggableDiv.classList.toggle('off');
             event.target.offsetParent.classList.toggle('off');
+
+            // Add the app's title to the div's header
+            const appTitle = appName[0].toLocaleUpperCase() + appName.substring(1);
+            document.getElementById('draggable-div-title').innerText = appTitle;
+            
             // Adjacent the html from the apps object
-            draggableDiv.insertAdjacentHTML('beforeend', apps[event.target.id]);
+            draggableDiv.insertAdjacentHTML('beforeend', apps[appName]);
         }
 
         // Invert colors to default once the app is opened
@@ -114,7 +120,8 @@ appBtns.forEach(button => {
         })
 
         // Call the function with the app's name
-        window[event.target.id]();
+        window[appName]();
+        
     })
 })
 
