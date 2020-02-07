@@ -101,7 +101,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/lion_425x550.jpg" alt="lion" width="141" height="183">
+                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -111,7 +111,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/cat_425x550.jpg" alt="cat" width="141" height="183">
+                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -121,7 +121,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/cow_425x550.jpg" alt="cow" width="141" height="183">
+                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -131,7 +131,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/cow_425x550.jpg" alt="cow" width="141" height="183">
+                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -141,7 +141,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -151,7 +151,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -161,7 +161,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -171,7 +171,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -181,7 +181,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/dog_425x550.jpg" alt="dog" width="141" height="183">
+                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -191,7 +191,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -201,7 +201,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -211,7 +211,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -221,7 +221,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/dog_425x550.jpg" alt="dog" width="141" height="183">
+                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -231,7 +231,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/lion_425x550.jpg" alt="lion" width="141" height="183">
+                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -241,7 +241,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -251,7 +251,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -261,7 +261,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/cat_425x550.jpg" alt="cat" width="141" height="183">
+                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width="141" height="183">
                             </div>
                         </div>
                     </div> 
@@ -271,7 +271,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
                             </div>
                         </div>
                     </div> 
