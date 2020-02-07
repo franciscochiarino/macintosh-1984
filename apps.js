@@ -91,7 +91,7 @@ const apps = {
         <div id="memory-window">
             <div class="flex-container">
                 <header>
-                    <h1>Memory</h1>
+                    <h3>Find the matching pairs!</h3>
                 </header>
                 
                 <section class="grid-container">

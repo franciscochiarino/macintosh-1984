@@ -299,3 +299,61 @@ header nav {
         padding: 0.2rem 0;
     }
 }
+
+// Memory
+
+#memory-window {
+
+    h3 {
+        margin-top: 1rem;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+     
+     .grid-container {
+         display: grid;
+         grid-template: repeat(3, 1fr) / repeat(6, 141px);
+         gap: 5px;
+         padding: 2rem 1rem;
+     }
+
+      /* The flip card container - set the width and height to whatever you want. */
+    .flip-card {
+        background-color: transparent;
+        width: calc(141px);
+        height: calc(183px);
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    /* Style the front side */
+    .flip-card-front {
+        background-color: #283655;
+    }
+
+    /* Style the back side */
+    .flip-card-back {
+        transform: rotateY(180deg);
+    } 
+}
