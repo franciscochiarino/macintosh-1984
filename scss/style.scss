@@ -373,8 +373,8 @@ header nav {
     #board {
         display: grid;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         gap: 3px;
         margin-bottom: 1.5rem;
     }
@@ -384,6 +384,11 @@ header nav {
         justify-content: center;
         align-items: center;
         border: 1px solid #000
+    }
+
+    .player-move {
+        font-size: 3rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     }
     
     #script-display {

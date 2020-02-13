@@ -1,6 +1,6 @@
 
 function ticTacToe() {
-    
+
     // If there is a winner, this variable is going to be reassigned to an empty string, so users can't keep playing
     let squares = document.getElementsByClassName('square');
 
@@ -79,7 +79,7 @@ function ticTacToe() {
             let squareCol = squareId[squareId.length - 1];
             
             if (clicksInsideBoard % 2 === 0 && squares[i].innerHTML === '') {
-                squares[i].innerHTML = '<p>X</p>';
+                squares[i].innerHTML = '<p class="player-move">X</p>';
                 clickCounter();
 
                 // Concatinate the last character of the square's id (it's number):
@@ -89,7 +89,7 @@ function ticTacToe() {
                 findCombinations();
 
             } else if (squares[i].innerHTML === '') {
-                squares[i].innerHTML = '<p>O</p>';
+                squares[i].innerHTML = '<p class="player-move">O</p>';
                 clickCounter();
 
                 // Concatinate the last character of the square's id (it's number):
