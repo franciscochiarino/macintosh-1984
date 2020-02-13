@@ -279,8 +279,7 @@ const apps = {
             </div> <!-- .flex-container -->
         </div>`,
     ticTacToe: `
-        <div id="ticTacToe-window">
-            <h1>Tic Tac Toe</h1>
+        <div id="tic-tac-toe-window">
             <section class="flex-container">
                 <section id="board">
                     <div id="sq00" class="square"></div>
@@ -294,7 +293,7 @@ const apps = {
                     <div id="sq22" class="square"></div>
                 </section>
                 <section id="script-display">
-                    <h3>player one = X </h3> 
+                    <h3>player one = X</h3> 
                     <h3>Player two = O</h3>
                 </section>
             </section>

@@ -358,3 +358,35 @@ header nav {
         transform: rotateY(180deg);
     } 
 }
+
+// Tic Tac Toe
+
+#tic-tac-toe-window {
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+    
+    #board {
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+        width: 500px;
+        height: 500px;
+        gap: 3px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000
+    }
+    
+    #script-display {
+        height: 3rem;
+    }
+}
