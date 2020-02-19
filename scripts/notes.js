@@ -7,31 +7,34 @@ function notes() {
 
     serverData = sessionStorage.getItem('item');
     
-    if (serverData) {
-        tasks = JSON.parse(serverData);
-    }
-    console.log(tasks)
+    // Display notes from server data
+    (() => {
+        if (serverData !== null) {
+            tasks = JSON.parse(serverData);
+            console.log('asdji')
+            // Create elements for each task
+            tasks.forEach(task => {
+                // List
+                const li = document.createElement('li');
 
-    tasks.forEach(task => {
+                // Span 
+                const spanX = document.createElement('span');
+                const x = document.createTextNode('x');
+                spanX.appendChild(x);
 
-        // List
-        const li = document.createElement('li');
-
-        // Span 
-        const spanX = document.createElement('span');
-        const x = document.createTextNode('x');
-        spanX.appendChild(x);
-
-        // Text
-        const textP = document.createElement('p');
-        const text = document.createTextNode(task);
-        textP.appendChild(text);
-        
-        // Append elements
-        li.append(textP, spanX);
-        ul.appendChild(li);
-    });
-    
+                // Text
+                const textP = document.createElement('p');
+                const text = document.createTextNode(task);
+                textP.appendChild(text);
+                
+                // Append elements
+                li.append(textP, spanX);
+                ul.appendChild(li);
+            })
+        } else {
+            console.log('no not work')
+        }
+    })();
 
     // Add Note
     const addNote = (e) => {
