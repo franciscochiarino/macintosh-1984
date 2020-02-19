@@ -8,9 +8,29 @@ function notes() {
     serverData = sessionStorage.getItem('item');
     
     if (serverData) {
-        tasks = serverData;
+        tasks = JSON.parse(serverData);
     }
     console.log(tasks)
+
+    tasks.forEach(task => {
+
+        // List
+        const li = document.createElement('li');
+
+        // Span 
+        const spanX = document.createElement('span');
+        const x = document.createTextNode('x');
+        spanX.appendChild(x);
+
+        // Text
+        const textP = document.createElement('p');
+        const text = document.createTextNode(task);
+        textP.appendChild(text);
+        
+        // Append elements
+        li.append(textP, spanX);
+        ul.appendChild(li);
+    });
     
 
     // Add Note
