@@ -297,6 +297,18 @@ const apps = {
                     <h3>Player two = O</h3>
                 </section>
             </section>
+        </div>`,
+    notes:`
+        <div id="notes-window">
+            <form>
+                <input type="text">
+                <input type="submit" value="Add" class="btn">
+            </form>
+            <section id="task-section">
+                <ul>
+                    
+                </ul>
+            </section>
         </div>`
 };
 
