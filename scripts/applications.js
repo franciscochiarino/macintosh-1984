@@ -304,7 +304,7 @@ const apps = {
                 <input type="text">
                 <input type="submit" value="Add" class="btn">
             </form>
-            <section id="task-section">
+            <section class="task-section">
                 <ul>
                     
                 </ul>
