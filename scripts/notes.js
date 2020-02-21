@@ -6,11 +6,12 @@ function notes() {
     let tasks = [];
 
     serverData = sessionStorage.getItem('item');
+    // console.log(serverData);
+    // console.log(typeof JSON.parse(serverData));
     
     if (serverData) {
         tasks = JSON.parse(serverData);
     }
-    console.log(tasks)
 
     tasks.forEach(task => {
 
@@ -41,7 +42,7 @@ function notes() {
         // Push string to taks array
         input = document.querySelector('input[type="text"]');
         tasks.push(input.value);
-        sessionStorage.setItem('item', tasks);
+        sessionStorage.setItem('item', JSON.stringify(tasks));
         input.value = '';
 
         // Create elements for each task
@@ -74,6 +75,7 @@ function notes() {
         if (event.target.tagName === 'SPAN') {
             let index = tasks.indexOf(clickedText);
             tasks.splice(index, 1);
+            sessionStorage.setItem('item', JSON.stringify(tasks));
             event.target.parentElement.remove()
             
         }
