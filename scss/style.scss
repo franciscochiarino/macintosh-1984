@@ -1,3 +1,10 @@
+// Modules
+
+@use 'hangman';
+@use 'memory';
+@use 'tic-tac-toe';
+@use 'notes';
+
 // CSS Reset
 
 * {
@@ -221,9 +228,4 @@ header nav {
     text-align: right;
 }
 
-// Modules
 
-@use 'hangman';
-@use 'memory';
-@use 'tic-tac-toe';
-@use 'notes';
