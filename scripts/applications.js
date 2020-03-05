@@ -5,6 +5,7 @@ const memoryCard = {
     width: '100',
     height: '142'
 }
+
 const apps = {
     background: `
         <div id="background-window">
@@ -105,7 +106,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width="141" height="183">
+                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -115,7 +116,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width="141" height="183">
+                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -125,7 +126,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width="141" height="183">
+                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -135,7 +136,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width="141" height="183">
+                                <img src="./assets/memory-pics/cow_425x550.jpg" alt="cow" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -145,7 +146,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -155,7 +156,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -165,7 +166,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -175,7 +176,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -185,7 +186,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width="141" height="183">
+                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -195,7 +196,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width="141" height="183">
+                                <img src="./assets/memory-pics/sheep_425x550.jpg" alt="sheep" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -205,7 +206,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -215,7 +216,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width="141" height="183">
+                                <img src="./assets/memory-pics/squirrel_425x550.jpg" alt="squirrel" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -225,7 +226,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width="141" height="183">
+                                <img src="./assets/memory-pics/dog_425x550.jpg" alt="dog" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -235,7 +236,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width="141" height="183">
+                                <img src="./assets/memory-pics/lion_425x550.jpg" alt="lion" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -245,7 +246,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width="141" height="183">
+                                <img src="./assets/memory-pics/giraffe_425x550.jpg" alt="giraffe" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -255,7 +256,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width="141" height="183">
+                                <img src="./assets/memory-pics/wolf_425x550.jpg" alt="wolf" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -265,7 +266,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width="141" height="183">
+                                <img src="./assets/memory-pics/cat_425x550.jpg" alt="cat" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 
@@ -275,7 +276,7 @@ const apps = {
                             <div class="flip-card-front">
                             </div>
                             <div class="flip-card-back">
-                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width="141" height="183">
+                                <img src="./assets/memory-pics/stone-goat_425x550.jpg" alt="stone-goat" width=${memoryCard.width} height=${memoryCard.height}>
                             </div>
                         </div>
                     </div> 

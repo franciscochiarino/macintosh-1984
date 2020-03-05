@@ -1,4 +1,6 @@
 // Memory
+$memory-card-width: 100px;
+$memory-card-height: 142px;
 
 #memory-window {
 
@@ -14,7 +16,7 @@
      
      .grid-container {
          display: grid;
-         grid-template: repeat(3, 1fr) / repeat(6, 141px);
+         grid-template: repeat(3, 1fr) / repeat(6, $memory-card-width);
          gap: 5px;
          padding: 2rem 1rem;
      }
@@ -22,8 +24,8 @@
       /* The flip card container - set the width and height to whatever you want. */
     .flip-card {
         background-color: transparent;
-        width: calc(141px);
-        height: calc(183px);
+        width: $memory-card-width;
+        height: $memory-card-height;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
     }
     
