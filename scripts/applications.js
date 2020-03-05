@@ -1,6 +1,10 @@
 // Apps buttons and HTMLs
 
 const appBtns = document.querySelectorAll('.app-btn');
+const memoryCard = {
+    width: '100',
+    height: '142'
+}
 const apps = {
     background: `
         <div id="background-window">
