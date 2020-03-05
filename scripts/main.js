@@ -10,6 +10,7 @@ const desktop = document.querySelector('.desktop');
 
 // Navigation event listeners
 
+// Show dropdown menu when clicking on the top menu buttons
 navButtons.forEach(button => {
     button.addEventListener('click', function() {
         let buttonContent = document.getElementById(`${button.id}-content`);
