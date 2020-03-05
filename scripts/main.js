@@ -2,7 +2,6 @@
 
 const navButtons = document.querySelectorAll('.nav-btn');
 const escape = document.getElementById('escape');
-// const escapeAboutMe = document.getElementById('escape-about-me');
 const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
 const desktop = document.querySelector('.desktop');
@@ -10,7 +9,7 @@ const desktop = document.querySelector('.desktop');
 
 // Navigation event listeners
 
-// Show dropdown menu when clicking on the top menu buttons
+// Show dropdown menu when clicking on the top menu buttons:
 navButtons.forEach(button => {
     button.addEventListener('click', function() {
         let buttonContent = document.getElementById(`${button.id}-content`);
@@ -29,6 +28,7 @@ navButtons.forEach(button => {
     })
 })
 
+// Click anywhere to close About Me window
 desktop.addEventListener('click', function() {
     navButtons.forEach(button => {
         let buttonContent = document.getElementById(`${button.id}-content`);
@@ -45,21 +45,13 @@ desktop.addEventListener('click', function() {
 })
 
 // Open About Me
-
 aboutMeBtn.addEventListener('click', function(event) {
     event.target.parentElement.classList.toggle('off');
     event.target.parentElement.previousElementSibling.classList.toggle('invert-colors')
     aboutMeWindow.classList.toggle('off');
 })
 
-
-
-// escapeAboutMe.addEventListener('click', function() {
-//     aboutMeWindow.classList.toggle('off');
-// })
-
 // Make the DIV element draggable
-
 dragElement(document.getElementById("draggable-div"));
 
 function dragElement(elmnt) {
