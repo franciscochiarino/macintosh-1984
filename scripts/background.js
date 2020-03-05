@@ -9,7 +9,13 @@ function background() {
                 const selectedImg = event.target;
                 thumbnailImages.forEach(img => img.style.borderColor = 'black');
                 selectedImg.style.borderColor = 'red';
-                desktop.style.backgroundImage = `url(./assets/backgrounds/${selectedImg.id}.jpg)`
+
+                // Set background using id:
+                desktop.style.backgroundImage = `url(./assets/backgrounds/${selectedImg.id}.jpg)`;
+
+                // Store image id in Session Storage
+                sessionStorage.setItem('background', JSON.stringify(selectedImg.id));
+                
             })
     })
     

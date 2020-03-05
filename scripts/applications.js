@@ -325,7 +325,7 @@ appBtns.forEach(button => {
 
             // Show draggable window
             draggableDiv.classList.toggle('off');
-            draggableDiv.style.top = '15%';
+            draggableDiv.style.top = '10%';
             draggableDiv.style.left = '10%';
             event.target.offsetParent.classList.toggle('off');
 

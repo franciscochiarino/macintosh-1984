@@ -5,7 +5,7 @@ function notes() {
     let ul = document.querySelector('ul');
     let tasks = [];
 
-    serverData = sessionStorage.getItem('item');
+    let serverData = sessionStorage.getItem('item');
     // console.log(serverData);
     // console.log(typeof JSON.parse(serverData));
     

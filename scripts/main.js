@@ -6,6 +6,16 @@ const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
 const desktop = document.querySelector('.desktop');
 
+// Check if user previously set background image
+window.onload = () => {
+    let serverData = sessionStorage.getItem('background');
+
+    if (serverData) {
+        let backgroundImage = JSON.parse(serverData);
+        desktop.style.backgroundImage = `url(./assets/backgrounds/${backgroundImage}.jpg)`;
+    }
+}
+
 
 // Navigation event listeners
 
