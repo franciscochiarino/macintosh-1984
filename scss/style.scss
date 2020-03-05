@@ -119,10 +119,9 @@ header nav {
 
 #draggable-div {
     position: absolute;
+    transform: translate(-50%, -50%);
     z-index: 1;
     background-color: #fff;
-    // width: auto;
-    // height: auto;
     border-radius: 3px 3px 0 0;
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
