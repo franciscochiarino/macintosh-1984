@@ -4,11 +4,9 @@ function notes() {
     const form = document.querySelector('form');
     let ul = document.querySelector('ul');
     let tasks = [];
-
     let serverData = sessionStorage.getItem('item');
-    // console.log(serverData);
-    // console.log(typeof JSON.parse(serverData));
     
+    // Check if there is smth in sessionStorage before asigning
     if (serverData) {
         tasks = JSON.parse(serverData);
     }
