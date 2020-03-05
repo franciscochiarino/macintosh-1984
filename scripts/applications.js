@@ -325,8 +325,8 @@ appBtns.forEach(button => {
 
             // Show draggable window
             draggableDiv.classList.toggle('off');
-            draggableDiv.style.top = '50%';
-            draggableDiv.style.left = '50%';
+            draggableDiv.style.top = '15%';
+            draggableDiv.style.left = '10%';
             event.target.offsetParent.classList.toggle('off');
 
             // Add the app's title to the div's header
