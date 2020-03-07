@@ -314,6 +314,28 @@ const apps = {
                     
                 </ul>
             </section>
+        </div>`,
+    calculator: `
+        <div id="calculator-window">
+            <div id="display"></div>
+            <button>C</button>
+            <button>E</button>
+            <button>=</button>
+            <button class="operator" id="times">*</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator" id="divide">/</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator" id="minus">-</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator" id="plus">+</button>
+            <button class="number" id="zero">0</button>
+            <button class="number">.</button>
         </div>`
 };
 
