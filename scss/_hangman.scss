@@ -1,7 +1,7 @@
 // Hangman
 
 #hangman-window {
-    padding: 1rem 2rem;
+    padding: 1rem;
 
     #head,
     #body,
@@ -14,16 +14,16 @@
     }   
 
     svg {
-        width: 90%;
+        width: 80%;
     }
     
     #display {
-        min-width: 320px;
+        min-width: 300px;
     }
 
-    #display * {
-        margin-top: 1rem;
-    }
+    // #display * {
+    //     margin-top: 1rem;
+    // }
     
     #word-display {
         font-size: 1.5rem;
@@ -51,7 +51,7 @@
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        padding: 1rem 0;
+        padding: 0 0 1rem 0;
     }
     
     form {

@@ -87,7 +87,7 @@ function hangman() {
             } else {
                 // Display the letter in the used-characters container
                 usedCharacter.innerHTML += `${pickedLetter} `;
-                outputMessage.innerHTML = `<p>The secret word doesn\'t have any ${pickedLetter}</p>`
+                outputMessage.innerHTML = `<p>The word doesn\'t have any ${pickedLetter}</p>`
             }
         }   
 
