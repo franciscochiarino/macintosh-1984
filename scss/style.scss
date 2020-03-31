@@ -45,6 +45,11 @@ html {
     display: block;
 }
 
+.on:hover .nav-btn {
+    background-color: #000;
+    color: #fff;
+}
+
 .invert-colors {
     background-color: #000;
     color: #fff;
