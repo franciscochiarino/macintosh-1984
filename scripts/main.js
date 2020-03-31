@@ -1,7 +1,6 @@
 // Global variables
 
 const navButtons = document.querySelectorAll('.nav-btn');
-const escape = document.getElementById('escape');
 const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
 const desktop = document.querySelector('.desktop');
@@ -17,27 +16,6 @@ window.onload = () => {
     }
 }
 
-
-
-
-// Show dropdown menu when clicking on the top menu buttons:
-// navButtons.forEach(button => {
-//     button.addEventListener('click', function() {
-//         let buttonContent = document.getElementById(`${button.id}-content`);
-
-//         if (buttonContent.className.includes('off')) {
-
-//             buttonContent.classList.toggle('off');
-//             button.classList.toggle('invert-colors');
-
-//         } else {
-
-//             buttonContent.classList.toggle('off');
-//             button.classList.toggle('invert-colors');
-//         }
-//     })
-// })
-
 // Navigation event listeners
 nav.addEventListener('click', function() {
     navChildren = [...nav.children];
@@ -51,8 +29,6 @@ nav.addEventListener('click', function() {
         }
     })
 })
-
-
 
 // Click anywhere to close About Me window
 desktop.addEventListener('click', function() {
@@ -73,7 +49,6 @@ desktop.addEventListener('click', function() {
 // Open About Me
 aboutMeBtn.addEventListener('click', function(event) {
     event.target.parentElement.classList.toggle('off');
-    event.target.parentElement.previousElementSibling.classList.toggle('invert-colors')
     aboutMeWindow.classList.toggle('off');
 })
 
