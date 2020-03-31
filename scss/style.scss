@@ -41,11 +41,9 @@ html {
     display: none;
 }
 
-.dropdown:hover .dropdown-content {
+.on:hover .dropdown-content {
     display: block;
 }
-
-
 
 .invert-colors {
     background-color: #000;
