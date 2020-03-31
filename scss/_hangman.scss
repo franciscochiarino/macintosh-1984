@@ -32,6 +32,7 @@
     
     #output-message {
         font-size: 1rem;
+        margin-top: 1rem;
     }
     
     #used-characters {
@@ -40,7 +41,8 @@
         border: 2px solid black;
         justify-content: center;
         align-items: center;
-        
+        margin-top: 1rem;
+
         p {
             margin: 0;
         }
@@ -57,13 +59,17 @@
     form {
         display: flex;
         justify-content: center;
-        flex-flow: row wrap;
-        width: 250px;
         margin: 0 auto;
 
-        button {
-            margin-top: 0.8rem;
+        label {
+            text-align: center;
         }
+
+        button {
+            height: 40px;
+            align-self: center;
+        }
+
     }
     
     input {
@@ -71,7 +77,7 @@
     }
     
     #letter {
-        width: 4rem;
+        width: 2.5rem;
         padding: 0.2rem 0;
     }
 }
