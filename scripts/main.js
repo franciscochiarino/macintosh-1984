@@ -20,22 +20,22 @@ window.onload = () => {
 // Navigation event listeners
 
 // Show dropdown menu when clicking on the top menu buttons:
-navButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        let buttonContent = document.getElementById(`${button.id}-content`);
+// navButtons.forEach(button => {
+//     button.addEventListener('click', function() {
+//         let buttonContent = document.getElementById(`${button.id}-content`);
 
-        if (buttonContent.className.includes('off')) {
+//         if (buttonContent.className.includes('off')) {
 
-            buttonContent.classList.toggle('off');
-            button.classList.toggle('invert-colors');
+//             buttonContent.classList.toggle('off');
+//             button.classList.toggle('invert-colors');
 
-        } else {
+//         } else {
 
-            buttonContent.classList.toggle('off');
-            button.classList.toggle('invert-colors');
-        }
-    })
-})
+//             buttonContent.classList.toggle('off');
+//             button.classList.toggle('invert-colors');
+//         }
+//     })
+// })
 
 // Click anywhere to close About Me window
 desktop.addEventListener('click', function() {
