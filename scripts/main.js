@@ -34,7 +34,6 @@ navButtons.forEach(button => {
             buttonContent.classList.toggle('off');
             button.classList.toggle('invert-colors');
         }
-
     })
 })
 
