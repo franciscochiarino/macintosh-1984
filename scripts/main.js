@@ -5,6 +5,7 @@ const escape = document.getElementById('escape');
 const aboutMeBtn = document.getElementById('about-me-btn');
 const aboutMeWindow = document.getElementById('about-me-window');
 const desktop = document.querySelector('.desktop');
+const nav = document.querySelector('nav');
 
 // Check if user previously set background image
 window.onload = () => {
@@ -17,7 +18,7 @@ window.onload = () => {
 }
 
 
-// Navigation event listeners
+
 
 // Show dropdown menu when clicking on the top menu buttons:
 // navButtons.forEach(button => {
@@ -36,6 +37,22 @@ window.onload = () => {
 //         }
 //     })
 // })
+
+// Navigation event listeners
+nav.addEventListener('click', function() {
+    navChildren = [...nav.children];
+
+    navChildren.forEach(dropdown => {
+        console.log(dropdown)
+        if (dropdown.className.includes('on')) {
+            dropdown.classList.toggle('on');
+        } else {
+            dropdown.classList.toggle('on');
+        }
+    })
+})
+
+
 
 // Click anywhere to close About Me window
 desktop.addEventListener('click', function() {
