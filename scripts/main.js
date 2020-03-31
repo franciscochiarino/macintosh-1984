@@ -61,7 +61,7 @@ desktop.addEventListener('click', function() {
 
         if (!buttonContent.className.includes('off')) {
             buttonContent.classList.toggle('off');
-            button.classList.toggle('invert-colors');
+            // button.classList.toggle('invert-colors');
         }
 
         if (!aboutMeWindow.className.includes('off')) {
