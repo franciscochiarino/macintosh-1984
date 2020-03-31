@@ -1,6 +1,7 @@
 // Apps buttons and HTMLs
 
 const appBtns = document.querySelectorAll('.app-btn');
+const escape = document.getElementById('escape');
 const memoryCard = {
     width: '100',
     height: '142'

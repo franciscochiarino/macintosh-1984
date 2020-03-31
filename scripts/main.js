@@ -21,7 +21,6 @@ nav.addEventListener('click', function() {
     navChildren = [...nav.children];
 
     navChildren.forEach(dropdown => {
-        console.log(dropdown)
         if (dropdown.className.includes('on')) {
             dropdown.classList.toggle('on');
         } else {
