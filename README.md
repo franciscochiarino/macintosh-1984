@@ -8,7 +8,7 @@ A website that simulates the Macintosh 1984 operating system.
 
 - This is a project I will do in my free time. 
 
-- The main reasons of making this project are learning and practicing. It is also intended to be used as a porfolio website. 
+- The main reasons of making this project are learning and practicing.
 
 - The content requierd for this website will be fonts and icons, and also 'Aplications' which will be opened in the website to create operating system like environment. Since my main focus is functionality (and this is going to be a pretty time consuming proyect), I will save icons, style, animation, etc. for the round-up of the project. 
 
