@@ -1,4 +1,4 @@
-# Project log
+# [Macintosh 1984](https://macintosh-1984.netlify.app/)
 
 ## Overview
 
