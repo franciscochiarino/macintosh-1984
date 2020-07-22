@@ -6,7 +6,7 @@ A website that simulates the Macintosh 1984 operating system.
 
 ## Details
 
-- This is a project I will do in my free time. 
+- This is a project I did on my free time. 
 
 - The main reasons of making this project are learning and practicing.
 
@@ -33,23 +33,13 @@ After that I will adapt my projects (games, etc) to fit the 'OS' environment wel
 ### Background Window
 ![image](./wireframes/background-window.jpg)
 
-## Time
-
-- Estimated: 20 hours in one week.
-- Actual (add this on project completion)
 
 ## New skills
-
-(what did you research for this project?)
+Great use of JavaScript ES6
 
 ## Challenges + lessons learned
-
-(What didn't go well? How would you advise future-you so it goes better next time?)
+The biggest challenge was to implement the draggable window and make it work with different applications. 
 
 ## Achievements
+The main archivement comming up with a setup manual on how to "install" other JavaScript applications to this "OS". 
 
-(What did you do this time that was an improvement on last time? Acknowledge your progress, you've earned it!)
-
-## Buddy sign-off
-
-(get together with your buddy, check each other's logs for completeness, talk through your projects as a pair. Include their name here once you're finished.)
